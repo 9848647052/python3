@@ -1,0 +1,13 @@
+class leapyear:
+    def year(self,n):
+        if n%4==0 and n%100!=0:
+            return True
+        elif n%400==0:
+            return True
+        return False
+n=int(input())
+m=leapyear()
+if m.year(n):
+    print('It is a leap year')
+else:
+    print('It is not a leap year')
