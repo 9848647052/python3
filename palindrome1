@@ -1,0 +1,12 @@
+class solution:
+    def palindrome(self,n):
+        if s[::-1]==temp:
+            return True
+        return False        
+s=input()
+temp=s
+m=solution()
+if m.palindrome(s):
+    print('palindrome')
+else:
+    print("Not a palindrome")
