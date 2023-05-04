@@ -1,0 +1,7 @@
+s=input()
+temp=s
+m=solution()
+if m.palindrome(s):
+    print('palindrome')
+else:
+    print("Not a palindrome")
